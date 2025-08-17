@@ -1,0 +1,76 @@
+body {
+    text-align:  center;
+    background-color: #ffb85c;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: rgb(146, 66, 0);
+}
+#botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px; 
+    justify-content: center; 
+}
+
+.botao {
+    width: 80px;
+    height: 80px;
+    font-size: 28px;
+    border-radius: 10px;
+    border: 2px solid rgb(187, 84, 0);
+    background-color: rgb(255, 118, 6);
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color:  rgb(231, 104, 0);
+}
+#nome {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -9%;
+    margin-bottom: 15px;
+    color: rgba(138, 62, 0, 0.548);
+}
+#principal {
+    background: linear-gradient(to bottom, rgb(219, 88, 0), white);
+    background-color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 5px solid;
+    padding: 30px;   
+    width: 400px;      
+    height: 590px;      
+    box-sizing: border-box; 
+    margin: 0 auto;  
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(119, 54, 0); 
+
+
+}
+#display {
+    width: 300px;
+    height:40px;
+    background-color: #c9c9c9;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 32px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: monospace;
+    color: #333;
+}
+.resultado {
+    width: 350px;   /* aumenta só ele */
+    height: 80px;  /* mantém a altura igual aos outros */
+    font-size: 28px;
+    border-radius: 10px;
+    border: 2px solid rgb(187, 84, 0);
+    background-color: rgb(255, 118, 6);
+    cursor: pointer;
+}
